@@ -27,6 +27,7 @@
 		1712B0462AA66BD300C76071 /* UserLocationAuthorization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocationAuthorization.swift; sourceTree = "<group>"; };
 		1712B0482AA6764000C76071 /* BeantownButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeantownButtons.swift; sourceTree = "<group>"; };
 		1712B04A2AA6839400C76071 /* ItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemInfoView.swift; sourceTree = "<group>"; };
+		1712B04D2AA68D1300C76071 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +44,7 @@
 		1712B02A2AA6609100C76071 = {
 			isa = PBXGroup;
 			children = (
+				1712B04D2AA68D1300C76071 /* README.md */,
 				1712B0352AA6609100C76071 /* MapToy */,
 				1712B0342AA6609100C76071 /* Products */,
 			);
