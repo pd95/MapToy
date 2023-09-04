@@ -11,6 +11,10 @@
 		1712B0392AA6609100C76071 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1712B0382AA6609100C76071 /* ContentView.swift */; };
 		1712B03B2AA6609200C76071 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1712B03A2AA6609200C76071 /* Assets.xcassets */; };
 		1712B03E2AA6609200C76071 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1712B03D2AA6609200C76071 /* Preview Assets.xcassets */; };
+		1712B0452AA666E200C76071 /* LocationDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1712B0442AA666E200C76071 /* LocationDataManager.swift */; };
+		1712B0472AA66BD300C76071 /* UserLocationAuthorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1712B0462AA66BD300C76071 /* UserLocationAuthorization.swift */; };
+		1712B0492AA6764000C76071 /* BeantownButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1712B0482AA6764000C76071 /* BeantownButtons.swift */; };
+		1712B04B2AA6839400C76071 /* ItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1712B04A2AA6839400C76071 /* ItemInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		1712B0382AA6609100C76071 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1712B03A2AA6609200C76071 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1712B03D2AA6609200C76071 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1712B0442AA666E200C76071 /* LocationDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDataManager.swift; sourceTree = "<group>"; };
+		1712B0462AA66BD300C76071 /* UserLocationAuthorization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocationAuthorization.swift; sourceTree = "<group>"; };
+		1712B0482AA6764000C76071 /* BeantownButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeantownButtons.swift; sourceTree = "<group>"; };
+		1712B04A2AA6839400C76071 /* ItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				1712B0362AA6609100C76071 /* MapToyApp.swift */,
 				1712B0382AA6609100C76071 /* ContentView.swift */,
+				1712B0482AA6764000C76071 /* BeantownButtons.swift */,
+				1712B04A2AA6839400C76071 /* ItemInfoView.swift */,
+				1712B0462AA66BD300C76071 /* UserLocationAuthorization.swift */,
+				1712B0442AA666E200C76071 /* LocationDataManager.swift */,
 				1712B03A2AA6609200C76071 /* Assets.xcassets */,
 				1712B03C2AA6609200C76071 /* Preview Content */,
 			);
@@ -139,6 +151,10 @@
 			files = (
 				1712B0392AA6609100C76071 /* ContentView.swift in Sources */,
 				1712B0372AA6609100C76071 /* MapToyApp.swift in Sources */,
+				1712B0452AA666E200C76071 /* LocationDataManager.swift in Sources */,
+				1712B0472AA66BD300C76071 /* UserLocationAuthorization.swift in Sources */,
+				1712B0492AA6764000C76071 /* BeantownButtons.swift in Sources */,
+				1712B04B2AA6839400C76071 /* ItemInfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +290,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MapToy/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We want to show your location on the map.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +319,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MapToy/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We want to show your location on the map.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
